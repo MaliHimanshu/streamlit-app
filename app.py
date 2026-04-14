@@ -21,14 +21,15 @@ COLOR_MAP = {"M": "#38bdf8", "F": "#f472b6"}
 
 # ─────────────────────────────────────────
 #  PATHS
-# ─────────────────────────────────────────
-BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
+# ───────────────────────────────────────
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 DATA_PATH = os.path.join(BASE_DIR, "data", "student-mat.csv")
 MODEL_PATH = os.path.join(BASE_DIR, "model.pkl")
-LOGO_PATH  = os.path.join(BASE_DIR, "logo.png")
-NAAC_PATH  = os.path.join(BASE_DIR, "naac_logo.png")
-CAMPUS_PATH = os.path.join(BASE_DIR, "campus.png")
 
+LOGO_PATH = os.path.join(BASE_DIR, "logo.png")
+NAAC_PATH = os.path.join(BASE_DIR, "naac_logo.png")
+CAMPUS_PATH = os.path.join(BASE_DIR, "campus.png")
 # ─────────────────────────────────────────
 #  PAGE CONFIG
 # ─────────────────────────────────────────
