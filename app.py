@@ -23,7 +23,7 @@ COLOR_MAP = {"M": "#38bdf8", "F": "#f472b6"}
 #  PATHS
 # ─────────────────────────────────────────
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = "student-mat.csv"
+DATA_PATH = "data/student-mat.csv"
 MODEL_PATH = "model.pkl"
 LOGO_PATH  = os.path.join(BASE_DIR, "logo.png")
 NAAC_PATH  = os.path.join(BASE_DIR, "naac_logo.png")
